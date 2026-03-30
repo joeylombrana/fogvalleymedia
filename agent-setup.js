@@ -42,15 +42,15 @@ document.addEventListener("DOMContentLoaded", () => {
     try {
       // 🔥 1. Send notification to YOU
       await emailjs.sendForm(
-        "service_0dkwo5q",
-        "template_10lb5or", // New Agent Setup Request
+        "service_72vagjw",
+        "template_10lb5or",
         agentForm
       );
 
       // 🔥 2. Send auto-reply to AGENT
       await emailjs.sendForm(
-        "service_0dkwo5q",
-        "template_82ynf2v", // Your Setup Request Has Been Received
+        "service_72vagjw",
+        "template_82ynf2v",
         agentForm
       );
 
