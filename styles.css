@@ -882,3 +882,9 @@ p {
     transition: none !important;
   }
 }
+.hero-callout {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #c9a96a;
+}
